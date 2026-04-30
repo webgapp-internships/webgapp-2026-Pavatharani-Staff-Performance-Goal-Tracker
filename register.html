@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+        text-align:center ;
+        color:palevioletred;
+    }
+    center{
+        border: 5px solid black;
+        border-radius: 33px  ;
+        background-color:purple;
+    }
+    .form{
+        text-align:center;
+        color: azure;
+    }
+        </style>
+</head>
+<body>
+    <center>
+        <h1>User Registration Form</h1>
+
+    <form action="submit.html" method="post">
+        <div class="form">
+        <label>Full Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Others">Others<br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML<br>
+        <input type="checkbox" name="skills" value="CSS"> CSS<br>
+        <input type="checkbox" name="skills" value="Java"> Java
+        <br><br>
+
+        <label>Country:</label><br>
+        <select name="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </div>
+    </center>
+    </form>
+</body>
+</html>
