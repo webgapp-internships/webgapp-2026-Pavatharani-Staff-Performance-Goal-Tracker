@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    @media(max-width:468px){
+        body{
+          background: rgb(255, 11, 112);
+          color: rgb(1, 3, 3);
+          font-family: 'Times New Roman', Times, serif;
+        }
+    }
+</style>
+<body>
+    <h1>The map and area elements</h1>
+
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="./workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="./laptop.jpg">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="./cellphone.jpg">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="./coffeehouse2.jpg">
+</map><br>
+<hr>
+<h1>The article element</h1>
+
+<article>
+  <h2>Google Chrome</h2>
+  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+  <h2>Mozilla Firefox</h2>
+  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article><br>
+<hr>
+<h1>The figure and figcaption element</h1>
+
+<figure>
+  <img src="./pic_trulli.jpg" alt="Trulli" style="width:80%">
+  <figcaption>Fig: Trulli, Puglia, Italy.</figcaption>
+</figure><br>
+<hr>
+<h1>The mark element</h1>
+
+<p>The tree is <mark>pink</mark> in color.</p><br>
+<hr>
+<h1>HTML5 Canvas</h1>
+<p style="color: black; font-size: 20px; font-family: Arial, Helvetica, sans-serif;">The canvas tag is used to draw graphics, on the fly, via scripting</p>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid rgb(27, 9, 9)"></canvas><br>
+<hr>
+
+</body>
+</html>
