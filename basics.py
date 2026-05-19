@@ -3,9 +3,10 @@ if(s1>90):{
     print("O GRADE")
 }
 elif(s1>=70):{
-    print("B GRADE")
+    print("A GRADE")
 }
 else:{
     print("U GRADE")
 }
  
+
