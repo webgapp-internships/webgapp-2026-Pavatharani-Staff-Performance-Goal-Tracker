@@ -3,10 +3,10 @@ print("NAME:",name)
 
 password=" "
 while  password != "DOB":
-     password = input("enter you password : ")
+     password = input("Enter you password : ")
 print("Login successfully")
 
-sub= ["TAMIL","ENGLISH","MATHS","SCIENCE","SOCIAL"]
+sub= ["Tamil","English","Maths","Science","Social"]
 total = 0
 for sub in sub:
     marks1 = int(input("ENTER YOUR " + sub + " MARK : " ))
