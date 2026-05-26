@@ -10,18 +10,18 @@ class project:
 class project_name1(project):
 
     def details(self):
-        return f"{self.student_name}: front end development"
+        return f"{self.student_name}: front end developer"
 
 
 class project_name2(project):
 
     def details(self):
-        return f"{self.student_name}: backend development"
+        return f"{self.student_name}: Django developer"
 
 
 class project_name3(project):
     def details(self):
-         return f"{self.student_name}: Full stack development "
+         return f"{self.student_name}: Full stack developer "
 
 
 s1 = project_name1("sugasan")
